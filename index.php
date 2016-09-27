@@ -37,8 +37,8 @@ if (!@$_POST['submit']) {
 		<input type="text" class="form-control" id="exampleInput" placeholder="数据库密码" name="pwd" >
 		 </div>
 		<div class="form-group">
-		<label for="exampleInput">数据库</label>
-		<input type="text" class="form-control" id="exampleInput" placeholder="数据库" name="db" value='test'>
+		<label for="exampleInput">数据库名称</label>
+		<input type="text" class="form-control" id="exampleInput" placeholder="数据库名称" name="db" value='mysql'>
 		 </div>
 		<div class="form-group">
 		<input class="btn btn-default" type="submit" name="submit" value="生成字典">
